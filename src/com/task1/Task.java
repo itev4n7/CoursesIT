@@ -24,7 +24,7 @@ public class Task {
 
     static void task3(String[] args) {
         Stream.of(args).forEach(System.out::println);
-        Stream.of(args).forEach(System.out::println);
+        Stream.of(args).forEach(System.out::print);
     }
 
     static void task4(String[] args) {
