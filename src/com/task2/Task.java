@@ -5,9 +5,13 @@ import java.util.*;
 public class Task {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        task9_3(scanner.nextLine());
+        task9_5(scanner.nextLine());
     }
 
+    /**
+     * Для удобства чтения каждый метод как решение задания,
+     * по этому есть повтор кода
+     */
     static void task1(String str) {
         String[] arrSplit = str.split(" ");
         int min = Integer.MAX_VALUE, max = 0;
@@ -59,12 +63,13 @@ public class Task {
         }
         average /= arr.length;
         System.out.println("average=" + average);
+        System.out.println("less average");
         for (String s : arr) {
             if (s.length() < average) {
                 System.out.print(s + "=" + s.length() + " ");
             }
         }
-        System.out.println();
+        System.out.println("more average");
         for (String s : arr) {
             if (s.length() > average) {
                 System.out.print(s + "=" + s.length() + " ");
@@ -339,9 +344,9 @@ public class Task {
         }
     }
 
-    /*
-        size = 4
-        matrix =
+    /** example
+        enter size matrix -> 4
+        enter matrix ->
         1 2 3 2
         1 2 8 9
         8 7 6 0
@@ -446,9 +451,56 @@ public class Task {
 
     }
 
+    /** example
+        enter size matrix -> 3
+        enter matrix ->
+        1 2 3
+        1 2 3
+        1 2 3
+     */
     static void task9_5(String str) {
-
+        int size = Integer.parseInt(str);
+        int[][] matrix = new int[size][size];
+        System.out.println("enter matrix NxN");
+        Scanner scanner = new Scanner(System.in);
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                matrix[i][j] = scanner.nextInt();
+            }
+        }
+        int[][] matrixTmp = new int[size][size];
+        /**
+         rotate the matrix 90
+         */
+        for (int i = 0; i < size; i++) {
+            for (int j = size - 1, k = 0; j >= 0; j--, k++) {
+                matrixTmp[k][i] = matrix[i][j];
+            }
+        }
+        /**
+         rotate the matrix 180
+         */
+        matrixTmp = Arrays.copyOf(matrix, size);
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size / 2; j++) {
+                int tmp = matrixTmp[i][j];
+                matrixTmp[i][j] = matrixTmp[i][size - j - 1];
+                matrixTmp[i][size - j - 1] = tmp;
+            }
+        }
+        /**
+         rotate the matrix 270
+         */
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                matrixTmp[i][j] = matrix[size - j - 1][i];
+            }
+        }
+        for (int i = 0; i < size; i++) {
+            System.out.println(Arrays.toString(matrixTmp[i]));
+        }
     }
+
 
     //not fin
     /*
@@ -472,7 +524,7 @@ public class Task {
         }
         average /= size * size;
         System.out.println(average);
-
+        //code
         for (int i = 0; i < size; i++) {
             System.out.println(Arrays.toString(matrix[i]));
         }
@@ -491,7 +543,7 @@ public class Task {
         }
         int sizeLine = size, sizeColumn = size;
         for (int i = 0; i < size; i++) {
-            int sumL = 0, sumC = 0
+            int sumL = 0, sumC = 0;
             for (int j = 0; j < size; j++) {
                 sumL += matrix[i][j];
                 sumC += matrix[j][i];
@@ -506,7 +558,7 @@ public class Task {
         int[][] newMatrix = new int[sizeColumn][sizeLine];
         for (int i = 0; i < sizeColumn; i++) {
             for (int j = 0; j < sizeLine; j++) {
-
+//code
             }
         }
 
@@ -516,10 +568,9 @@ public class Task {
 
     }
 
-    /*
-      example:
-      size = 5
-      matrix =
+    /**example
+      enter matrix size -> 5
+      enter matrix ->
       5 1 0 0 1
       6 8 0 1 0
       0 0 0 0 1

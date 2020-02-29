@@ -78,7 +78,7 @@ public class Task {
         Pattern.compile(" ")
                 .splitAsStream(str)
                 .mapToInt(Integer::parseInt)
-                .filter(i -> i % 3 == 0 && i % 9 == 0)
+                .filter(i -> i % 3 == 0 || i % 9 == 0)
                 .forEach(System.out::println);
     }
 
