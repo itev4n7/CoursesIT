@@ -47,19 +47,14 @@ public class Task {
         Pattern.compile(" ")
                 .splitAsStream(str)
                 .mapToInt(Integer::parseInt)
-                .forEach(i -> {
-                    if (i % 2 == 0) {
-                        System.out.print(i + " ");
-                    }
-                });
+                .filter(i -> i % 2 == 0)
+                .forEach(i -> System.out.print(i + " "));
+
         Pattern.compile(" ")
                 .splitAsStream(str)
                 .mapToInt(Integer::parseInt)
-                .forEach(i -> {
-                    if (i % 2 != 0) {
-                        System.out.print(i + " ");
-                    }
-                });
+                .filter(i -> i % 2 != 0)
+                .forEach(i -> System.out.print(i + " "));
 
     }
 
@@ -68,6 +63,7 @@ public class Task {
                 .splitAsStream(str)
                 .mapToInt(Integer::parseInt)
                 .max().ifPresent(System.out::println);
+
         Pattern.compile(" ")
                 .splitAsStream(str)
                 .mapToInt(Integer::parseInt)
@@ -105,8 +101,8 @@ public class Task {
         Pattern.compile(" ")
                 .splitAsStream(str)
                 .filter(s -> s.length() == 4 &&
-                        (s.charAt(0) + s.charAt(3)) ==
-                                (s.charAt(1) + s.charAt(2)))
+                        (s.charAt(0) + s.charAt(1)) ==
+                                (s.charAt(2) + s.charAt(3)))
                 .forEach(System.out::println);
     }
 }
