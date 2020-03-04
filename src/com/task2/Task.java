@@ -5,7 +5,7 @@ import java.util.*;
 public class Task {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        task9_5(scanner.nextLine());
+        task9_6(scanner.nextLine());
     }
 
     /**
@@ -260,7 +260,7 @@ public class Task {
             System.out.println();
         }
         /**
-         *shift execution right
+         * shift execution right
          */
         int shiftR = shift;
         int[] arrTemp = new int[size];
@@ -279,7 +279,7 @@ public class Task {
             System.out.println();
         }
         /**
-         *shift execution left
+         * shift execution left
          */
         int shiftL = -shift;
         for (int i = 0; i < size; i++) {
@@ -300,7 +300,7 @@ public class Task {
             System.out.println();
         }
         /**
-         *shift execution up
+         * shift execution up
          */
         int shiftU = -shift;
 
@@ -324,7 +324,7 @@ public class Task {
             System.out.println();
         }
         /**
-         *shift execution down
+         * shift execution down
          */
         int shiftD = shift;
         for (int i = 0; i < size; i++) {
@@ -344,13 +344,14 @@ public class Task {
         }
     }
 
-    /** example
-        enter size matrix -> 4
-        enter matrix ->
-        1 2 3 2
-        1 2 8 9
-        8 7 6 0
-        8 5 2 1
+    /*
+     example
+     enter size matrix -> 4
+     enter matrix ->
+     1 2 3 2
+     1 2 8 9
+     8 7 6 0
+     8 5 2 1
      */
     static void task9_3(String str) {
         int size = Integer.parseInt(str);
@@ -428,13 +429,12 @@ public class Task {
         }
     }
 
-    //not fin
     /*
         size = 5
         matrix =
         1 -1 0 -2 2
         -2 1 -2 -4 2
-        2 2 -1 -1 -1
+        2 -2 -1 -1 -1
         0 -1 1 -2 2
         1 2 3 4 5
      */
@@ -448,15 +448,35 @@ public class Task {
                 matrix[i][j] = scanner.nextInt();
             }
         }
-
+        for (int i = 0; i < size; i++) {
+            int firstP = -1, secondP = -1;
+            int sum = 0;
+            for (int j = 0; j < size; j++) {
+                if (matrix[i][j] > 0 && firstP == -1) {
+                    firstP = j;
+                } else if (matrix[i][j] > 0 && secondP == -1) {
+                    secondP = j;
+                    break;
+                }
+            }
+            if (firstP != -1 && secondP != -1) {
+                for (int j = firstP + 1; j < secondP; j++) {
+                    sum += matrix[i][j];
+                }
+                System.out.println("line=" + i + " sum=" + sum);
+            } else {
+                System.out.println("line=" + i + " not have a two positive num");
+            }
+        }
     }
 
-    /** example
-        enter size matrix -> 3
-        enter matrix ->
-        1 2 3
-        1 2 3
-        1 2 3
+    /*
+     example
+     enter size matrix -> 3
+     enter matrix ->
+     1 2 3
+     1 2 3
+     1 2 3
      */
     static void task9_5(String str) {
         int size = Integer.parseInt(str);
@@ -501,36 +521,53 @@ public class Task {
         }
     }
 
-
-    //not fin
     /*
-        size = 3
-        matrix =
-        5 4 5
-        5 4 4
-        4 5 5
+      example
+      enter matrix size -> 3
+      enter matrix ->
+      3 4 5
+      7 8 9
+      8 8 8
      */
     static void task9_6(String str) {
         int size = Integer.parseInt(str);
-        int average = 0;
         int[][] matrix = new int[size][size];
         System.out.println("enter matrix NxN");
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
                 matrix[i][j] = scanner.nextInt();
-                average += matrix[i][j];
             }
         }
-        average /= size * size;
-        System.out.println(average);
-        //code
         for (int i = 0; i < size; i++) {
-            System.out.println(Arrays.toString(matrix[i]));
+            int average = 0;
+            for (int j = 0; j < size; j++) {
+                average += matrix[i][j];
+            }
+            average /= size;
+            for (int j = 0; j < size; j++) {
+                matrix[i][j] -= average;
+            }
         }
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                System.out.printf("%d\t", matrix[i][j]);
+            }
+            System.out.println();
+        }
+
     }
 
-    //not fin
+    /*
+     example
+     enter matrix size -> 5
+     enter matrix ->
+     1 0 5 0 0
+     0 0 5 0 0
+     2 0 5 0 0
+     0 0 0 0 0
+     0 0 0 0 0
+     */
     static void task9_7(String str) {
         int size = Integer.parseInt(str);
         int[][] matrix = new int[size][size];
@@ -541,41 +578,81 @@ public class Task {
                 matrix[i][j] = scanner.nextInt();
             }
         }
+        //two lists for empty cells
+        List<Integer> nonL = new ArrayList<>();
+        List<Integer> nonC = new ArrayList<>();
         int sizeLine = size, sizeColumn = size;
+        //zero line check
         for (int i = 0; i < size; i++) {
-            int sumL = 0, sumC = 0;
+            int sumL = 0;
             for (int j = 0; j < size; j++) {
-                sumL += matrix[i][j];
-                sumC += matrix[j][i];
+                sumL += Math.abs(matrix[i][j]);
             }
             if (sumL == 0) {
                 sizeLine--;
+                nonL.add(i);
+            }
+        }
+        //zero column check
+        for (int j = 0; j < size; j++) {
+            int sumC = 0;
+            for (int i = 0; i < size; i++) {
+                sumC += Math.abs(matrix[i][j]);
             }
             if (sumC == 0) {
                 sizeColumn--;
+                nonC.add(j);
             }
         }
-        int[][] newMatrix = new int[sizeColumn][sizeLine];
-        for (int i = 0; i < sizeColumn; i++) {
-            for (int j = 0; j < sizeLine; j++) {
-//code
+        //new compressed matrix
+        int[][] newMatrix = new int[sizeLine][sizeColumn];
+        //filling
+        for (int i = 0, c = 0, l = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                boolean line = true;
+                boolean colunm = true;
+                //zero line check
+                for (Integer index : nonL) {
+                    if (i == index) {
+                        line = false;
+                        break;
+                    }
+                }
+                //zero column check
+                for (Integer index : nonC) {
+                    if (j == index) {
+                        colunm = false;
+                        break;
+                    }
+                }
+                if (line && colunm && l != sizeLine) {
+                    if (c >= sizeColumn) {
+                        l++;
+                        c = 0;
+                    }
+                    newMatrix[l][c] = matrix[i][j];
+                    c++;
+                }
             }
         }
-
-        for (int i = 0; i < size; i++) {
-            System.out.println(Arrays.toString(matrix[i]));
+        //output compressed matrix
+        for (int i = 0; i < sizeLine; i++) {
+            for (int j = 0; j < sizeColumn; j++) {
+                System.out.printf("%d\t", newMatrix[i][j]);
+            }
+            System.out.println();
         }
-
     }
 
-    /**example
-      enter matrix size -> 5
-      enter matrix ->
-      5 1 0 0 1
-      6 8 0 1 0
-      0 0 0 0 1
-      0 0 5 5 0
-      8 8 0 8 8
+    /*
+     example
+     enter matrix size -> 5
+     enter matrix ->
+     5 1 0 0 1
+     6 8 0 1 0
+     0 0 0 0 1
+     0 0 5 5 0
+     8 8 0 8 8
      */
     static void task9_8(String str) {
         int size = Integer.parseInt(str);
