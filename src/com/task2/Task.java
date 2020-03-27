@@ -5,7 +5,7 @@ import java.util.*;
 public class Task {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        task9_6(scanner.nextLine());
+        task2(scanner.nextLine());
     }
 
     /**

@@ -1,7 +1,5 @@
 package com.it.les1;
 
-import java.util.Arrays;
-
 public class TestMain {
     public static void main(String[] args) {
 //        Map<Character, Integer> map = new TreeMap<>();
@@ -14,6 +12,20 @@ public class TestMain {
 //            }
 //        }
 //        System.out.println(map);
+//        Map<String, Integer> map = new TreeMap<>();
+//        String val = "http";
+//        val.chars()
+//                .mapToObj(c -> String.valueOf((char) c))
+//                .forEach(c -> {
+//                    if (!map.containsKey(c)) {
+//                        map.put(c, 1);
+//                    } else {
+//                        map.put(c, map.get(c) + 1);
+//                    }
+//                });
+//
+//        map.entrySet()
+//                .forEach(System.out::println);
 
     }
 }
