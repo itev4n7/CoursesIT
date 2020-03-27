@@ -38,7 +38,7 @@ public class Woman extends Human {
 
     Human toBirthHuman(Human human) {
         boolean newGenger = random.nextInt(10) < 5;
-        System.out.println("Enter child name");
+        System.out.println("Enter child name(" + (newGenger ? "boy" : "girl") + ")");
         String newName = new Scanner(System.in).nextLine();
         float newHeight = (float) ((newGenger ? human.getHeight() : this.getHeight()) + 0.1 * ((newGenger ? this.getHeight() : human.getHeight()) - (newGenger ? human.getHeight() : this.getHeight())));
         float newWeight = (float) ((newGenger ? human.getWeight() : this.getWeight()) + 0.1 * ((newGenger ? this.getWeight() : human.getWeight()) - (newGenger ? human.getWeight() : this.getWeight())));
