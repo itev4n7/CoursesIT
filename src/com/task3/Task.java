@@ -25,9 +25,9 @@ public class Task {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter two partners(gender(man/woman), name, lastName, height, weight)");
         System.out.print("partner1 = ");
-        String[] partner1 = scanner.nextLine().trim().split("\\s");
+        String[] partner1 = scanner.nextLine().trim().split("\\s+");
         System.out.print("partner2 = ");
-        String[] partner2 = scanner.nextLine().trim().split("\\s");
+        String[] partner2 = scanner.nextLine().trim().split("\\s+");
         Human human1 = defineGender(partner1);
         Human human2 = defineGender(partner2);
         System.out.println(compatibilityTest(human1, human2));

@@ -37,11 +37,15 @@ public class Woman extends Human {
     }
 
     Human toBirthHuman(Human human) {
-        boolean newGenger = random.nextInt(10) < 5;
-        System.out.println("Enter child name(" + (newGenger ? "boy" : "girl") + ")");
+        boolean newGender = random.nextInt(10) < 5;
+        System.out.println("Enter child name(" + (newGender ? "boy" : "girl") + ")");
         String newName = new Scanner(System.in).nextLine();
-        float newHeight = (float) ((newGenger ? human.getHeight() : this.getHeight()) + 0.1 * ((newGenger ? this.getHeight() : human.getHeight()) - (newGenger ? human.getHeight() : this.getHeight())));
-        float newWeight = (float) ((newGenger ? human.getWeight() : this.getWeight()) + 0.1 * ((newGenger ? this.getWeight() : human.getWeight()) - (newGenger ? human.getWeight() : this.getWeight())));
-        return new Man(newName, human.getLastName(), newHeight, newWeight);
+        float newHeight = (float) ((newGender ? human.getHeight() : this.getHeight()) + 0.1 * ((newGender ? this.getHeight() : human.getHeight()) - (newGender ? human.getHeight() : this.getHeight())));
+        float newWeight = (float) ((newGender ? human.getWeight() : this.getWeight()) + 0.1 * ((newGender ? this.getWeight() : human.getWeight()) - (newGender ? human.getWeight() : this.getWeight())));
+        if (newGender) {
+            return new Man(newName, human.getLastName(), newHeight, newWeight);
+        } else {
+            return new Woman(newName, human.getLastName(), newHeight, newWeight);
+        }
     }
 }
