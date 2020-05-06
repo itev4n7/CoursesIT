@@ -5,55 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/it/les1/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/it/les1/TestMain.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/task3/Human.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/task3/Man.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/task3/Woman.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/task3/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,107 +20,63 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/TestMain.java" />
-        <option value="$PROJECT_DIR$/src/com/les1/TestMain.java" />
-        <option value="$PROJECT_DIR$/src/les1/TestMain.java" />
-        <option value="$PROJECT_DIR$/src/com/task1/Task.java" />
-        <option value="$PROJECT_DIR$/src/com/task2/Task.java" />
-        <option value="$PROJECT_DIR$/src/com/it/les1/TestMain.java" />
-        <option value="$PROJECT_DIR$/src/com/task3/Man.java" />
-        <option value="$PROJECT_DIR$/src/com/task3/Human.java" />
-        <option value="$PROJECT_DIR$/src/com/task3/Woman.java" />
-        <option value="$PROJECT_DIR$/src/com/task3/Task.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="849" />
-    <option name="y" value="117" />
-    <option name="width" value="1035" />
-    <option name="height" value="877" />
-  </component>
+  <component name="ProjectId" id="1aXI0uDwugW3x1TNeewr18ugfbv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CoursesIT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoursesIT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CoursesIT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoursesIT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CoursesIT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoursesIT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CoursesIT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoursesIT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="les1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CoursesIT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoursesIT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CoursesIT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoursesIT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CoursesIT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoursesIT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="task3" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585310255902" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586672847035" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Task (2)">
+  <component name="RunManager" selected="Application.StrategyExample">
+    <configuration name="BuilderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.patterns.builder.BuilderExample" />
+      <module name="CoursesIT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.patterns.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecoratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.patterns.decorator.DecoratorExample" />
+      <module name="CoursesIT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.patterns.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.patterns.factory_method.FactoryExample" />
+      <module name="CoursesIT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.patterns.factory_method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.it.les1.TestMain" />
       <module name="CoursesIT" />
@@ -176,39 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.task2.Task" />
+    <configuration name="StrategyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.patterns.strategy.StrategyExample" />
       <module name="CoursesIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.task3.Task" />
-      <module name="CoursesIT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.task3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.task1.Task" />
-      <module name="CoursesIT" />
-      <option name="PROGRAM_PARAMETERS" value="1 2 3 4 5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.task1.*" />
+          <option name="PATTERN" value="com.patterns.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,16 +102,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Task (1)" />
-      <item itemvalue="Application.Task" />
-      <item itemvalue="Application.Task (2)" />
+      <item itemvalue="Application.BuilderExample" />
+      <item itemvalue="Application.DecoratorExample" />
+      <item itemvalue="Application.FactoryExample" />
+      <item itemvalue="Application.StrategyExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task (2)" />
+        <item itemvalue="Application.StrategyExample" />
+        <item itemvalue="Application.FactoryExample" />
+        <item itemvalue="Application.DecoratorExample" />
+        <item itemvalue="Application.BuilderExample" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Task (1)" />
-        <item itemvalue="Application.Task" />
       </list>
     </recent_temporary>
   </component>
@@ -244,70 +130,52 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="849" y="117" width="1035" height="877" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32385787" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33110815" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39919892" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32977304" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32977304" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31675127" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33110815" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39919892" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32977304" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32977304" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
-  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="676" y="247" width="732" height="634" key="#Inspections" timestamp="1587185301918">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state x="676" y="247" width="732" height="634" key="#Inspections/0.35.1920.1045@0.35.1920.1045" timestamp="1587185301918" />
+    <state x="1188" y="367" width="558" height="558" key="#com.intellij.ide.util.MemberChooser" timestamp="1587795108871">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state x="1188" y="367" width="558" height="558" key="#com.intellij.ide.util.MemberChooser/0.35.1920.1045@0.35.1920.1045" timestamp="1587795108871" />
+    <state x="1155" y="348" width="424" height="575" key="FileChooserDialogImpl" timestamp="1588787481536">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state x="1155" y="348" width="424" height="575" key="FileChooserDialogImpl/0.35.1920.1045@0.35.1920.1045" timestamp="1588787481536" />
+    <state width="1028" height="230" key="GridCell.Tab.0.bottom" timestamp="1587803398513">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state width="1028" height="230" key="GridCell.Tab.0.bottom/0.35.1920.1045@0.35.1920.1045" timestamp="1587803398513" />
+    <state width="1028" height="230" key="GridCell.Tab.0.center" timestamp="1587803398513">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state width="1028" height="230" key="GridCell.Tab.0.center/0.35.1920.1045@0.35.1920.1045" timestamp="1587803398513" />
+    <state width="1028" height="230" key="GridCell.Tab.0.left" timestamp="1587803398513">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state width="1028" height="230" key="GridCell.Tab.0.left/0.35.1920.1045@0.35.1920.1045" timestamp="1587803398513" />
+    <state width="1028" height="230" key="GridCell.Tab.0.right" timestamp="1587803398513">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state width="1028" height="230" key="GridCell.Tab.0.right/0.35.1920.1045@0.35.1920.1045" timestamp="1587803398513" />
+    <state x="1090" y="372" width="524" height="530" key="extract.method.dialog" timestamp="1587280290632">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state x="1090" y="372" width="524" height="530" key="extract.method.dialog/0.35.1920.1045@0.35.1920.1045" timestamp="1587280290632" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1587198064180">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.35.1920.1045@0.35.1920.1045" timestamp="1587198064180" />
+    <state x="1117" y="260" key="run.anything.popup" timestamp="1587192537299">
+      <screen x="0" y="35" width="1920" height="1045" />
+    </state>
+    <state x="1117" y="260" key="run.anything.popup/0.35.1920.1045@0.35.1920.1045" timestamp="1587192537299" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -332,122 +200,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_191/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#24380#24381#0" expanded="true" />
-            <element signature="e#24405#24406#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_191/src.zip!/java/lang/Double.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_191/src.zip!/java/util/DualPivotQuicksort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1475">
-          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_191/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="143" column="12" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
-          <folding>
-            <element signature="e#5027#5028#0" expanded="true" />
-            <element signature="e#5098#5099#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/task1/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="method#task6_2#0;class#Task#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_191/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-523">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_191/src.zip!/java/util/stream/IntStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="290" column="21" selection-start-line="290" selection-start-column="21" selection-end-line="290" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_191/src.zip!/java/util/function/IntConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/it/les1/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/task2/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/task3/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/task3/Man.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/task3/Woman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/task3/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
